@@ -21,7 +21,17 @@ Please provide the following:
     Our work, ipromise.io (pronounced, I promise you) will be centered on providing a decentralized supply-chain ledger service purposely for immutable and irrefutable smart-contract linked for traceability to edge devices that emits pre-agreed conditions of quality. A specific use-case that we would want to achieve first is "pharma cold chain iot" served through the ipromise.io api. For example, "to constantly maintain temperature from source, while-in-transit, while inside its target destination store room up to finally its administration."
 
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+
+    Substrate will be leveraged as the smart contract ledger that defines the desired properties and conditions. It will be deployed as a PoC over Kusama platform and eventually for PolkaDot.
+
   * An indication of why your team is interested in creating this project.
+
+    The team has been into Horizen Proof of Service [Masternode Managed Service Hosting](www.nodelauncher.com) for the past couple of years and is looking at a way to upgrade/update its knowledge and learn to use newer and more current advancements in Blockchain technology especially on dApps and most specifically DeFi. 
+
+    Our intent eventually, is how we could use web3.0 and PolkaDot as a platform to offer more of our software engineering and DevOps capabilities as a service and/or develop DeFi apps. We are collaborating with an IoT firm that develops sensors for its pharmaceutical client's use cases.
+
+  * Other use-cases we are looking at are for DeFi payments, loan, crowd-funding or mutually pooled 
+    funding for Proof-of-Service (masternodes) and Proof-of-Stake (Staking) on managed-service hosted nodes, Agriculture supply-chain, A talent pool for Blockchain-skilled resource.    
 
 ### Project Details 
 We expect the teams to already have a solid idea about the project's expected final state.
