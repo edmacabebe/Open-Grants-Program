@@ -3,7 +3,7 @@
 > This document is referenced in the terms and conditions and therefore needs to contain all the required information. Don't remove any of the mandatory parts presented in bold letters or as headlines! See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/blob/master/README_2.md) on how to submit a proposal.
 
 * **Project:** ipromiseio
-* **Proposer:** Edison Macabebe and Mike Stankavich
+* **Proposer:** Mike Stankavich
 * **Payment Address:** 3JnRfeKYYuSTEGKZDbcTKUWMy9NXbuaJKF 
 
 *The above combination of your GitHub account and payment address will be your unique identifier during the program. Please keep them safe.*
@@ -16,32 +16,44 @@ If this application in response to an RFP then please indicate this on the first
 Please provide the following:
   * A brief description of the project.
 
-    Immutable provenance and historical traceability from food, medicine, dry-goods, etc. is essential in ensuring quality, authenticity, and greater accountability to its management in the supply/value-chain.
+    Irrefutable provenance and historical traceability from HR Skillset, food, medicine, dry-goods, etc. is essential in ensuring quality, authenticity, and greater accountability to its management in the supply/value-chain.
 
-    Our work, ipromise.io (pronounced, I promise you) will be centered on providing a decentralized supply-chain ledger service purposely for immutable and irrefutable smart-contract linked for traceability to edge devices that emits pre-agreed conditions of quality. A specific use-case that we would want to achieve first is "pharma cold chain iot" served through the ipromise.io api. For example, "to constantly maintain temperature from source, while-in-transit, while inside its target destination store room up to finally its administration."
-
+    Our work, ipromise.io (pronounced, I promise you) will be centered on providing a decentralized supply-chain ledger service purposely for irrefutable smart-contract using rust, substrate, FRAME and Ink!
+        
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
 
-    Substrate will be leveraged as the smart contract ledger that defines the desired properties and conditions. It will be deployed as a PoC over Kusama platform and eventually for PolkaDot.
+    Substrate and Ink! will be leveraged as the smart contract ledger that defines the desired properties and conditions. 
 
   * An indication of why your team is interested in creating this project.
 
     The team has been into Horizen Proof of Service [Masternode Managed Service Hosting](www.nodelauncher.com) for the past couple of years and is looking at a way to upgrade/update its knowledge and learn to use newer and more current advancements in Blockchain technology especially on dApps and most specifically DeFi. 
 
-    Our intent eventually, is how we could use web3.0 and PolkaDot as a platform to offer more of our software engineering and DevOps capabilities as a service and/or develop DeFi apps. We are collaborating with an IoT firm that develops sensors for its pharmaceutical client's use cases.
+    Our intent eventually, is how we could use web3.0 and PolkaDot as a platform to offer or enable more of our software engineering and DevOps capabilities as a service and/or develop DeFi apps. 
 
-  * Other use-cases we are looking at are for DeFi payments, loan, crowd-funding or mutually pooled 
-    funding for Proof-of-Service (masternodes) and Proof-of-Stake (Staking) on managed-service hosted nodes, Agriculture supply-chain, A talent pool for Blockchain-skilled resource.    
+    At the next step, we are also looking at the possibility of developing a multi-cloud IAC deployable Parachain using the Kubernetes platform. And in many ways, enable us to develop more use cases as described below.
+
+  * Other use-cases we are looking at are for DeFi payments, loan, crowd-funding or 
+    mutually pooled funding for Proof-of-Service (masternodes) and Proof-of-Stake (Staking) on managed-service hosted nodes for validators, collators, nominators, fishermen. And of course, for our first use case, we'll focus on building a verfied talent pool for Blockchain-skilled resource.    
 
 ### Project Details 
 We expect the teams to already have a solid idea about the project's expected final state.
 
 Therefore, we ask the teams to submit (where relevant):
 * Mockups/designs of any UI components
+  <TODO>
+
 * API specifications of the core functionality
+  <TODO>
+
 * An overview of the technology stack to be used
+  <TODO>
 * Documentation of core components, protocols, architecture etc. to be deployed
+  <TODO>
+
 * PoC/MVP or other relevant prior work or research on the topic
+
+  There's a WIP MVP using our [HR App](https://hiremelab.com) that will interface with our substrate-based Blockchain Smart-Contract SaaS to create an Identity and a Biodata State transition update. 
+
 
 ### Ecosystem Fit 
 Are there any other projects similar to yours? If so, how is your project different?
@@ -49,25 +61,32 @@ Are there any other projects similar to yours? If so, how is your project differ
 ## Team :busts_in_silhouette:
 
 ### Team members
-* Name of team leader
-* Names of team members	
+* Name of team leader: Mike Stankavich
+* Names of team members: Edison Macabebe
+                         Zoilo dela Cruz 
 
 ### Team Website	
-* https://<your_domain>
+* https://ipromise.io
+* https://hiremelab.com
 
 ### Legal Structure 
 Please provide the name and registered address of the legal entity executing the project.
 
+Jackson Peak LLC
+
 ### Team's experience
-Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects. For research-related grants, references to past publications and projects in a related domain are helpful.  
+
+The team has been into providing a Horizen Proof of Service [Masternode Managed Service Hosting](www.nodelauncher.com) for the past couple of years. Here are examples of our commit snips: [1](https://github.com/MikeStankavich/zencash-securenode), and [2]().
 
 ### Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+* https://github.com/mikestankavich
+* https://github.com/edmacabebe
+* https://github.com/luxknight007 
 
 ### Team LinkedIn Profiles
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+* https://www.linkedin.com/in/mikestankavich/
+* https://www.linkedin.com/in/edison-macabebe-31709b35/
+* https://www.linkedin.com/in/zoilodelacruz/
 
 ## Development Roadmap :nut_and_bolt: 
 
