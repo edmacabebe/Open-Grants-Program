@@ -46,6 +46,9 @@ Therefore, we ask the teams to submit (where relevant):
   <TODO>
 
   * System Context Diagram is a high-level view of the interaction between user personas and the the application. 
+
+    It implies that the app lifecycle begins when a job-seeker, plausible still in high-school, a fresh college-graduate or even experienced IT developers who have gained some level of certified or experiential developer skills on specific languages or administrative operational skills on key platforms commits to 
+    stake into the system with its authentic identity, made anonymous by the system, but has achieved validation from knowledge-providers and certification bodies. Their private resumes are built and updated as a form of smart-contract and could be matched to a requirement of a recruiter. The lifecycle reaches almost 360 degrees when the employer offers an employment contract. 
   
   ![System Context Diagram](./images/ApplicationArchitecture-SystemContextDiagram.png)
     
