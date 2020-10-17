@@ -1,24 +1,18 @@
 # Open Grant Proposal
 
-> This document is referenced in the terms and conditions and therefore needs to contain all the required information. Don't remove any of the mandatory parts presented in bold letters or as headlines! See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/blob/master/README_2.md) on how to submit a proposal.
-
 * **Project:** ipromiseio
 * **Proposer:** Mike Stankavich
 * **Payment Address:** 3JnRfeKYYuSTEGKZDbcTKUWMy9NXbuaJKF 
 
-*The above combination of your GitHub account and payment address will be your unique identifier during the program. Please keep them safe.*
-
 ## Project Overview :page_facing_up: 
-If this application in response to an RFP then please indicate this on the first line of this section.
 
 ### Overview
 
-Please provide the following:
   * A brief description of the project.
 
     Irrefutable provenance and historical traceability from HR Skillset, food, medicine, dry-goods, etc. is essential in ensuring quality, authenticity, and greater accountability to its management in the supply/value-chain.
 
-    Our work, ipromise.io (pronounced, I promise you) will be centered on providing a decentralized supply-chain ledger service purposely for irrefutable smart-contract using rust, substrate, FRAME and Ink!
+    Our work, ipromise.io (pronounced, I promise you) SaaS will be centered on providing a decentralized supply-chain ledger service purposely for irrefutable smart-contract using rust, substrate, FRAME and Ink! The ipromise.io will be consumed by [HireMeLab](www.hiremelab.com) to present a pool of human resources with irrefutable skillsets.
         
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
 
@@ -28,12 +22,12 @@ Please provide the following:
 
     The team has been into Horizen Proof of Service [Masternode Managed Service Hosting](www.nodelauncher.com) for the past couple of years and is looking at a way to upgrade/update its knowledge and learn to use newer and more current advancements in Blockchain technology especially on dApps and most specifically DeFi. 
 
-    Our intent eventually, is how we could use web3.0 and PolkaDot as a platform to offer or enable more of our software engineering and DevOps capabilities as a service and/or develop DeFi apps. 
+    Our intent eventually, is how we could use web3.0 and PolkaDot as a platform to offer or enable more of our software engineering and DevOps capabilities as a service in a resource pool that could be leveraged by other projects while at the same time build our profile to develop DeFi apps. 
 
-    At the next step, we are also looking at the possibility of developing a multi-cloud IAC deployable Parachain using the Kubernetes platform. And in many ways, enable us to develop more use cases as described below.
+    As our next step (in the short haul), we are also looking at the possibility of developing a multi-cloud IAC deployable Parachain using the Kubernetes platform. And in many ways, enable us to develop more use cases as described below.
 
-  * Other use-cases we are looking at are for DeFi payments, loan, crowd-funding or 
-    mutually pooled funding for Proof-of-Service (masternodes) and Proof-of-Stake (Staking) on managed-service hosted nodes for validators, collators, nominators, fishermen. And of course, for our first use case, we'll focus on building a verfied talent pool for Blockchain-skilled resource.    
+  * Other use-cases we are looking at are for DeFi payments, loan, supply-value-chain,
+    crowd-funding or mutually pooled funding for Proof-of-Service (masternodes) and Proof-of-Stake (Staking) on managed-service hosted nodes for validators, collators, nominators, fishermen. And of course, for our first use case, we'll focus on building a verfied talent pool for Blockchain-skilled resource.    
 
 ### Project Details 
 We expect the teams to already have a solid idea about the project's expected final state.
@@ -47,17 +41,25 @@ Therefore, we ask the teams to submit (where relevant):
 
 * An overview of the technology stack to be used
   <TODO>
+
 * Documentation of core components, protocols, architecture etc. to be deployed
   <TODO>
 
+  * System Context Diagram is a high-level view of the interaction between user personas and the the application. 
+  
+  ![System Context Diagram](./images/SystemContextDiagram.png)
+    
+  * Architecture Overview is an artifact that rovides an overview of the ‘main conceptual elements and relationships’ of an architecture, which may include candidate subsystems, components, nodes, connections, data stores, users, and external systems. As such, it represents the governing ideas and ‘candidate building blocks’ of the architecture.
+  
+  ![Architecture Overview](./images/ApplicationArchitecture-ApplicationOverview.png)    
+  
 * PoC/MVP or other relevant prior work or research on the topic
 
-  There's a WIP MVP using our [HR App](https://hiremelab.com) that will interface with our substrate-based Blockchain Smart-Contract SaaS to create an Identity and a Biodata State transition update. 
-
+  There exist an MVP using our [HR App](https://hiremelab.com) that will interface with our substrate-based Blockchain Smart-Contract SaaS ipromise.io that provides a central endpoint to create an Identity, Deploy, Update and View the State.
 
 ### Ecosystem Fit 
 Are there any other projects similar to yours? If so, how is your project different?
-
+www.litentry.com
 ## Team :busts_in_silhouette:
 
 ### Team members
@@ -109,8 +111,8 @@ For each milestone:
 
 ### Milestone 1 Example — Implement Substrate Modules 
 * **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** 0.75 BTC
+* **FTE:**  2
+* **Costs:** 0.8 BTC
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
