@@ -47,7 +47,7 @@ Therefore, we ask the teams to submit (where relevant):
 
   * System Context Diagram is a high-level view of the interaction between user personas and the the application. 
   
-  ![System Context Diagram](./images/SystemContextDiagram.png)
+  ![System Context Diagram](./images/ApplicationArchitecture-SystemContextDiagram.png)
     
   * Architecture Overview is an artifact that rovides an overview of the ‘main conceptual elements and relationships’ of an architecture, which may include candidate subsystems, components, nodes, connections, data stores, users, and external systems. As such, it represents the governing ideas and ‘candidate building blocks’ of the architecture.
   
