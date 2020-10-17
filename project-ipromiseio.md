@@ -12,11 +12,11 @@
 
     Irrefutable provenance and historical traceability from HR Skillset, food, medicine, dry-goods, etc. is essential in ensuring quality, authenticity, and greater accountability to its management in the supply/value-chain.
 
-    Our work, ipromise.io (pronounced, I promise you) SaaS will be centered on providing a decentralized supply-chain ledger service purposely for irrefutable smart-contract using rust, substrate, FRAME and Ink! The ipromise.io will be consumed by [HireMeLab](www.hiremelab.com) to present a pool of human resources with irrefutable skillsets.
+    Our work, ipromise.io (pronounced, I promise you) SaaS will be centered on providing a decentralized supply-chain ledger service purposely for irrefutable smart-contract using rust, substrate, FRAME and Ink! The ipromise.io will be consumed by [HireMeLab](www.hiremelab.com) to present a pool of human resources with irrefutable skillsets in rust, substrate, devops and cloud initially just to narrow the scope.
         
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
 
-    Substrate and Ink! will be leveraged as the smart contract ledger that defines the desired properties and conditions. 
+    Substrate and Ink! will be leveraged as the smart contract ledger that defines the desired properties and conditions. Where these could be deployed to Kusama and Polkadot at its earliest projected verison.
 
   * An indication of why your team is interested in creating this project.
 
