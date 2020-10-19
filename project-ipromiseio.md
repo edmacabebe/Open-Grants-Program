@@ -52,9 +52,9 @@ Therefore, we ask the teams to submit (where relevant):
   
   ![System Context Diagram](./images/ApplicationArchitecture-SystemContextDiagram.png)
     
-  * Architecture Overview is an artifact that rovides an overview of the ‘main conceptual elements and relationships’ of an architecture, which may include candidate subsystems, components, nodes, connections, data stores, users, and external systems. As such, it represents the governing ideas and ‘candidate building blocks’ of the architecture.
+  * Architecture Overview is an artifact that provides an overview of the ‘main conceptual elements and relationships’ of the application architecture. It represents the governing ideas and ‘candidate high-level building blocks’ of the architecture.
   
-  ![Architecture Overview](./images/ApplicationArchitecture-ApplicationOverview.png)    
+  ![Architecture Overview](./images/ApplicationArchitecture-ArchitectureOverview.png)    
   
 * PoC/MVP or other relevant prior work or research on the topic
 
@@ -62,7 +62,13 @@ Therefore, we ask the teams to submit (where relevant):
 
 ### Ecosystem Fit 
 Are there any other projects similar to yours? If so, how is your project different?
-www.litentry.com
+
+www.litentry.com - this seems intended as a very general purpose Identity-centric for a broad range of usecases running in a custom parachain with their own economic token.
+
+We don't think they're a competiotion, but once they mature, our solutions could be complementary.
+
+We intend a very specific use case for a skills pool that will serve as our entry to also develop our parachain in a CN platform. We can expand this later for other use-cases in the Supply/Value-Chain for Logistics and Trading, maybe with our own token as well.
+
 ## Team :busts_in_silhouette:
 
 ### Team members
@@ -77,7 +83,7 @@ www.litentry.com
 ### Legal Structure 
 Please provide the name and registered address of the legal entity executing the project.
 
-Jackson Peak LLC
+Jackson Peak LLC. Website in progress for [OPSUMO](https://opsumo.co).
 
 ### Team's experience
 
@@ -112,7 +118,8 @@ For each milestone:
 * **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) 
 * **Total Costs:** Amount of Payment in BTC for the whole project. The total amount of funding needs to be below $30k at the time of submission.
 
-### Milestone 1 Example — Implement Substrate Modules 
+### Milestone 1 — Implement Substrate using Ink!3.0 for a Profile ID, a Resume and a Smart Contract and End-to-End call between Hiremelab.co -> ipromise.io to create the profile
+
 * **Estimated Duration:** 1 month
 * **FTE:**  2
 * **Costs:** 0.8 BTC
@@ -120,16 +127,40 @@ For each milestone:
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can call the ipromise.io API. |
 | 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 1. | Ink 3.0 Contract: PID | Profile Identity to allow a User, in particular, a Job-Seeeker or Recruiter to create and identity |  
+| 2. | Ink 3.0 Contract: Resume | Resume is a form of Smart Contract declaring the Skill-sets with levels of truthiness and can be validated by a Knowledge or Certification body |  
+| 3. | Ink 3.0 Contract: Employment Contract | Employment Contract with rates and rules |  
+| 4. | ipromise.io feature 1 | Allows a caller to create an ID and profile |
+| 5. | ipromise.io feature 2 | Allows a caller to create a basic resume |  
 
 ### Milestone 2 Example — Additional features
-...
+
+* **Estimated Duration:** 1 month
+* **FTE:**  2
+* **Costs:** 0.8 BTC
+
+| Number | Deliverable | Specification |
+| ------------- | ------------- | ------------- |
+| 1. | ipromise.io feature 3 | Allows a caller to update resume | 
+| 2. | ipromise.io feature 4 | Allows a validated certifying or knowledge provider entity update resume with a validation |
+| 3. | ipromise.io feature 5 | Allows recruiter to create a search criteria based on a job specs/requirement |  
+| 4. | ipromise.io feature 6 | Allows ipromise.io to match a recruiter criteria to a Resume |
+| 5. | ipromise.io feature 7 | Allows hiremelab.io to hire a job-seeker from a candidate short list and set a contract|
+
+### Milestone 3 Example — NFRs
+
+* **Estimated Duration:** 1 month
+* **FTE:**  2
+* **Costs:** 0.8 BTC
+| Number | Deliverable | Specification |
+| ------------- | ------------- | ------------- |
+| 1. | Dockers | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 2. | Kubernetes | We will initially use a local env to enable Kubernetes |
+| 3. | CICD | Setup ArgoCD with possibly Tekton | 
+| 4. | Ansible | Automated Configuration Management |
+| 5. | Terraform | IaC to deploy to a Kubernetes platform in say, AWS or GCP |  
 
 ### Community engagement
 
@@ -146,4 +177,5 @@ Any additional information that you think is relevant to this application that h
 Possible additional information to include:
 * What work has been done so far?
 * Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
+* Have you applied for other grants so far? Plan is to apply here first, then try pitch this to locally-based
+  startup fund.
