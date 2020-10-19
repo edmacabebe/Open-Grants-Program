@@ -154,6 +154,7 @@ For each milestone:
 * **Estimated Duration:** 1 month
 * **FTE:**  2
 * **Costs:** 0.8 BTC
+
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 1. | Dockers | We will provide a dockerfile to demonstrate the full functionality of our chain |
